@@ -1,0 +1,288 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "762aef0a-d6ed-4651-8b7c-2ddb5c2c230b")
+	(paper "USLetter")
+	(title_block
+		(title "XerxesSDR-Dual")
+		(date "2025-04-28")
+		(rev "0.0.1")
+		(company "Dave Witten, KD0EAG; Tom  McDermott, N5EG; Franco Venturi, K4VZ")
+		(comment 2 "[ A Minimalist Rework of HF-103 designed by Oskar Stella, ik1xpv ]")
+		(comment 3 "Infineon/Cypress  FX3 DevKit and LTC2208 and Xilinx XC7-A35T ")
+		(comment 4 "An initial work-in-progress design based on the based on the")
+	)
+	(lib_symbols)
+	(sheet
+		(at 110.49 40.005)
+		(size 48.26 33.02)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "01482097-4e34-431f-952c-34d4f1408c9a")
+		(property "Sheetname" "Filters"
+			(at 134.366 80.264 0)
+			(effects
+				(font
+					(size 5 5)
+					(bold yes)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Sheetfile" "XerxesSDR_Filters.kicad_sch"
+			(at 123.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSWS-Xerxes-dual"
+				(path "/762aef0a-d6ed-4651-8b7c-2ddb5c2c230b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.085 40.64)
+		(size 50.165 32.385)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "46af3ed1-a429-4b49-8bed-1eb85b11428e")
+		(property "Sheetname" "USB"
+			(at 60.706 81.534 0)
+			(effects
+				(font
+					(size 5 5)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "XerxesSDR_USB.kicad_sch"
+			(at 45.085 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSWS-Xerxes-dual"
+				(path "/762aef0a-d6ed-4651-8b7c-2ddb5c2c230b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 143.51)
+		(size 49.53 30.48)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "77e7afc4-389b-40ef-9c26-cc7b7a99c754")
+		(property "Sheetname" "XC7A35T"
+			(at 52.324 183.134 0)
+			(effects
+				(font
+					(size 5 5)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "XerxesSDR_XC7A35T.kicad_sch"
+			(at 44.196 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSWS-Xerxes-dual"
+				(path "/762aef0a-d6ed-4651-8b7c-2ddb5c2c230b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.085 92.71)
+		(size 50.165 32.385)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "93a69905-dc73-446d-812a-de5f5715e64a")
+		(property "Sheetname" "ADC"
+			(at 63.5 133.35 0)
+			(effects
+				(font
+					(size 5 5)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "XerxesSDR_ADC.kicad_sch"
+			(at 52.07 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSWS-Xerxes-dual"
+				(path "/762aef0a-d6ed-4651-8b7c-2ddb5c2c230b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 93.345)
+		(size 46.99 31.75)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9590e8d2-6eab-45ad-983b-283c5d6a4d5a")
+		(property "Sheetname" "ADC Dual"
+			(at 117.856 132.842 0)
+			(effects
+				(font
+					(size 5 5)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "XerxesSDR_Dual-ADC.kicad_sch"
+			(at 111.252 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSWS-Xerxes-dual"
+				(path "/762aef0a-d6ed-4651-8b7c-2ddb5c2c230b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.085 40.64)
+		(size 47.625 32.385)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a1720e7c-5f6d-479f-8fc0-dd1aaf58c9d1")
+		(property "Sheetname" "Timing"
+			(at 183.642 81.788 0)
+			(effects
+				(font
+					(size 5 5)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "XerxesSDR_Timing.kicad_sch"
+			(at 172.72 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSWS-Xerxes-dual"
+				(path "/762aef0a-d6ed-4651-8b7c-2ddb5c2c230b"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 92.71)
+		(size 49.53 32.385)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d7acaed2-a28c-482a-a667-bcbdb462effb")
+		(property "Sheetname" "Power"
+			(at 187.325 132.715 0)
+			(effects
+				(font
+					(size 5 5)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "XerxesSDR_Power.kicad_sch"
+			(at 173.355 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSWS-Xerxes-dual"
+				(path "/762aef0a-d6ed-4651-8b7c-2ddb5c2c230b"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

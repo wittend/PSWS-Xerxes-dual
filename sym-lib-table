@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LTC6400-20")(type "KiCad")(uri "${KIPRJMOD}/Local Resources/ul_LTC6400CUD-20-PBF/KiCADv6/2023-06-22_15-42-38.kicad_sym")(options "")(descr ""))
+  (lib (name "NCP360")(type "KiCad")(uri "${KIPRJMOD}/Local Resources/ul_NCP360/KiCADv6/2023-07-29_15-44-26.kicad_sym")(options "")(descr ""))
+  (lib (name "ETC1-1T-2TR")(type "KiCad")(uri "${KIPRJMOD}/Local Resources/ETC1-1T-2TR/KiCad/ETC1-1T-2TR.kicad_sym")(options "")(descr ""))
+  (lib (name "ETC1-1-13TR")(type "KiCad")(uri "${KIPRJMOD}/Local Resources/ul_ETC1-1-13TR/KiCADv6/2023-07-06_22-34-52.kicad_sym")(options "")(descr ""))
+  (lib (name "LTC2208CUP-14-PBF")(type "KiCad")(uri "${KIPRJMOD}/Local Resources/ul_LTC2208CUP-14-PBF/KiCADv6/2023-06-26_15-20-44.kicad_sym")(options "")(descr ""))
+  (lib (name "ClemSDR_Library")(type "KiCad")(uri "${KIPRJMOD}/Local Resources/ClemSDR_Library.kicad_sym")(options "")(descr ""))
+)
